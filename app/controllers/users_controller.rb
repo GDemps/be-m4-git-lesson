@@ -29,4 +29,7 @@ class UsersController < ApplicationController
   def check_user
     redirect_to login_path if !current_user
   end
+
+  def fuck_user
+  end
 end
